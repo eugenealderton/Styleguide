@@ -1,0 +1,91 @@
+/* Universal data for css sheet */
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body,
+main {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	padding: 20px 10px;
+	border-left: 1px solid #1f30b6;
+	border-right: 1px solid #1f30b6;
+}
+
+body,
+main,
+p,
+.body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: black;
+}
+
+body {
+	background-color: #d2d2f0;
+}
+
+main {
+	background-color: white;
+}
+
+section {
+	margin: 20px 0;
+	padding: 10px;
+}
+
+/* Text Stylings*/
+h1, h2, h3, h4, h5, h6
+.heading {
+	color: #133bd3;
+	font-weight: bold;
+}
+
+a {
+	color: #cf3d00;
+}
+
+a:visited,
+.link--visited {
+	color: #8c2b03;
+}
+
+/* Colour Stylings */
+.colour {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+.colour--primary {
+	background: #133bd3;
+}
+
+.colour--secondary {
+	background: #d2d2f0;
+}
+
+.colour--tertiary{
+	background: black;
+}
+
+.colour--contrast {
+	background: #c8aef3;
+}
+
+.colour--highlight {
+	background: #cf3d00;
+}
+
+
+@media (min-width: 600px) {
+	main {
+		width: 700px;
+		margin: auto;
+	}
+}
